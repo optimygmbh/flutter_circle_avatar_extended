@@ -36,7 +36,13 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
-        child: CircleAvatarExtended(imageUrl: 'asdf'),
+        child: CircleAvatarExtended(
+          // imageUrl:
+          //     'https://github.com/optimygmbh/flutter_circle_avatar_extended/raw/master/image.jpg',
+          // backgroundColor: Colors.black,
+          initials: 'ABC',
+          radius: 36,
+        ),
       ),
     );
   }
